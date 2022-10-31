@@ -95,4 +95,4 @@ class DjinniScraper(object):
 start_time = time.perf_counter()
 djinni = DjinniScraper(url=URL)
 end_time = time.perf_counter()
-print("Elapsed:", end_time - start_time
+print("Elapsed:", end_time - start_time)
