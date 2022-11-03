@@ -13,10 +13,10 @@ source venv/bin/activate (on Linux and macOS) or venv\Scripts\activate (on Windo
 pip install -r requirements.txt
 
 # to get csv file with all python vacancies (~20 seconds)
-python3 djinni_parser.py
+python djinni_parser.py
 
 # to get graphic bar
-python3 python data_python.py "*csv_file" 
+python data_python.py "*csv_file" 
 # *csv_file - csv file you want to convert to bar
 # example: python data_python.py "python_vacancies-2022-11-02-18:2.csv" 
 # now you have png in data_png directory
