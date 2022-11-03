@@ -13,9 +13,6 @@ def main(file_name: str):
     technologies_list = [ast.literal_eval(technologies) for technologies in df["technologies"]]
     df["technologies"] = technologies_list
 
-    # df_technologies_columns = [technology for technologies in df["technologies"] for technology in technologies]
-    # df_technologies_columns = list(dict.fromkeys(df_technologies_columns))
-
     technologies_flat = df["technologies"].explode()
 
     df = df.join(pd.crosstab(technologies_flat.index, technologies_flat))
