@@ -24,6 +24,6 @@ python3 python data_python.py "*csv_file"
 
 ## Screenshots 
 
-![Website Interface](demo.png)
+![Website Interface](img/demo.png)
 
-![Website Interface](demo1.png)
+![Website Interface](img/demo1.png)
